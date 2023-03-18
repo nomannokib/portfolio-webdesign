@@ -1,0 +1,344 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(0, 0, 0);
+   
+}
+
+
+Header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    background-color: rgb(15, 2, 2);
+    top: 0;
+}
+
+header div{
+    float:left;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 200px ;
+    padding-top: 3px;
+}
+
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 200px;
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding-right: 40px;
+    padding-top: 10px;
+    
+}
+header .nav ul li a{
+    text-decoration: none ;
+    color: rgb(251, 249, 249);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+header .nav ul li a:hover{
+    color: rgb(241, 90,36);
+}
+
+
+
+
+/*section one Start*/
+.section1{
+    background-color:rgb(0, 0, 0);
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+}
+.half1, .half2{
+    width: 50%;
+}
+
+.half1{
+    margin-left: 230px;
+    margin-bottom: 120px;
+}
+
+.half2{
+    padding-right: 160px;
+    margin-top: 50px;
+
+}
+.half2 img{
+    max-width: 100%;
+    height: auto;
+    padding-top: 10px,
+
+
+}
+.half1 h3{
+    font-weight: normal;
+}
+.half1 h1{
+    font-size: 60px;
+    
+   
+}
+.half1 p{
+    color:rgb(255, 255, 255);
+}
+.half1 input{
+   padding: 8px 20px;
+   background-color: rgb(241, 90,36);
+   outline: none;
+   color: aliceblue;
+   border: 1px solid rgb(241, 90,36);
+   font-size: 15px;
+}
+.half1 input:hover{
+    box-shadow: 5px 5px 10px rgb(248, 0, 0);
+    transition: all 0.5s; 
+    outline: none;
+   background-color:  rgb(253, 0, 0);
+}
+/*section one End*/
+
+
+
+
+/*section two Start*/
+.section2{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(0, 0, 0);
+}.section div{
+    width: 40%;
+    margin: 0px auto;
+}
+.section2 .img2{
+    max-width: 90%;
+    height: auto;
+    padding-right: 400px;
+}
+.text2 h1{
+    font-weight: bold;
+    font-size: 25px;
+}
+.text2 input{
+    padding: 8px 20px;
+    background-color: rgb(241, 90,36);
+    outline: none;
+    color: aliceblue;
+    border: 1px solid rgb(241, 90,36);
+    font-size: 15px;
+
+}
+.text2 input:hover{
+    box-shadow: 5px 5px 10px rgb(248, 0, 0);
+    transition: all 0.5s; 
+    outline: none;
+   background-color: rgb(253, 0, 0);
+
+}
+/*section two End*/
+
+
+/*section three start*/
+.section3{
+    width: 100%;
+    height: 500px;
+    margin-top:0 px;
+    text-align: center;
+    background-color: azure;
+
+    
+}
+
+.text3 h1{
+    font-size: 30px;
+    color: rgb(241, 90,36);
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.text3 p{
+    color:rgb(6, 0, 0);
+    text-align: center;
+  
+}
+.service{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+.ser1{
+    width: 100%;
+    overflow: hidden;
+}
+.ser1 div{
+    width: 32%;
+    float: left;
+    padding: 0px;
+    margin: 0 auto;
+    align-items: center;
+}
+.ser1 div:hover{
+    background-color: rgb(102, 102, 242);
+    color: aliceblue;
+    transform: scale(0.5.0.5);
+    z-index: 1;
+    transition: 0.5s;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    
+}
+
+/*section Three End*/
+
+/*section Four Start*/
+.section4{
+    width: 100%;
+    height:300px ;
+    background-color: rgb(102, 102, 242);
+}
+.section4 div{
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding-left: 80px;
+}
+.section4 div h1{
+    color:aliceblue;
+    font-size: 50px;
+}
+.section4 div p{
+    color:aliceblue;
+    font-size: 30px;
+}
+/*section Four end*/ 
+
+/*portfolio part start start*/ 
+.section5{
+    width:100%;
+    box-sizing: border-box;
+    background-color: azure;
+    
+}
+.section5 h1{
+    font-size: 40px;
+    color: rgba(4, 0, 0, 0.966);
+    text-align: center;
+}
+.section5 p{
+    color: rgba(19, 19, 19, 0.966);
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+.section5 .pimg{
+    width:75%;
+    height: auto;
+    display:flex ;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin:0 auto;
+}
+.section5 .pimg div{
+    width: 340px;
+    height: 339px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.section5 .pimg h1{
+    font-size: 20px;
+    color: rgb(50, 49, 49);
+}
+
+    
+.section5 figure{
+    background-color: linear-gradient(40deg,#8490ff 40%,#62bdfc 100%);
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.pimg img:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    transition: 0.5s;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    border-end-end-radius: 2px;
+    
+
+}
+.pimg h1:hover{
+    color: rgb(52, 52, 250);
+
+}
+/*portfolio part start end*/ 
+
+/*Footer start*/ 
+footer{
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    margin-top: 100px;
+    color: white;
+}
+footer .foot{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 200px;
+
+}
+footer .foot .foot2 input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 10px 150px 10px 10px;
+}
+footer .foot .foot2 button{
+    font-size: 18px;
+    color: white;
+    background-color: #f85b0c;
+    outline: none;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+footer .foot .foot3 img{
+    cursor: pointer;
+    padding: 2px 3px;
+}
+footer .foot .foot3 img:hover{
+    background-color: #3244e6;
+    transform: scale(1.4);
+    transform: 0.5s;
+    border-radius: 3px;
+}
+footer .foot .foot2 button:hover{
+    background-color: #2444fb;
+}
+/*Footer End*/
